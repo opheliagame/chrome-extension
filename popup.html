@@ -13,12 +13,16 @@
     <section class="section">
         <p>Record your session</p>
         <label class="checkbox">
-            <input type="checkbox" id="record">
-            R
+            <input type="checkbox" id="record" value="false"> R
         </label>
+        <section id="sessionForm" style="display: none;">
+            <label name="sName">Session Name</label>
+            <input type="text" name="sName" id="sName"/>
+            <button id="sFormButton" type="button">Create Session</button>
+        </section>
     </section>
 
-    <section class="section">
+    <!-- <section class="section">
         <p>This page is about..</p>
         <div class="tags are-small">
             <span class="tag">One</span>
@@ -45,8 +49,10 @@
 
     <section class="section">
         <button class="button" id="makePDF">Summarize and Make PDF</button>
-    </section>
+    </section> -->
+    
     <script src="popup.js"></script>
+    
     
     
 </body>
